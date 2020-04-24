@@ -26,13 +26,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.foreach = loops through every item in array without stopping, return key is optional, Is a Higher order function. 
+
+.map = converts data, needs return keyword, and returns a new array.
+
 2. Explain the difference between a callback and a higher order function.
+
+A callback is a function that has to be executed after another one gets executed. Aka a function that is passed as an argument is a callback.
+
+A higher order function is a function that can take another function as an argumanet. such as .foreach functions.
 
 3. What is closure?
 
+A closure gives you access to the outter function scope from an inner function.
+
 4. Describe the four rules of the 'this' keyword.
 
+* A function call
+* Excplicic binding
+* new binding
+* Implicit Binding
+
+
 5. Why do we need super() in an extended class?
+
+Used to call the methods of a parent class.
+
 
 ### Task 1 - Project Set up
 
