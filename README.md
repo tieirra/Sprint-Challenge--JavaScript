@@ -30,6 +30,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.foreach = loops through each item in array , doesn't return a new array . To return is optional. Is a higher order function.
+
+.map = returns a new array, needs the return keyword. converts data back
+
 2. What is the difference between a function and a method?
 
 3. What is closure?
